@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Project-1</title>
+</head>
+
+<body>
+
+
+    <h1>University Registation Form</h1>
+    <p>Plese fill out the form bellow to register.</p>
+    <hr>
+
+    <form action="">
+        <h2>Personal Details</h2>
+        <label for="name">First Name:</label>
+        <input type="text" name="name" id="name" placeholder="e.g: Arjun">
+        <br><br>
+
+        <label for="surname">Last Name:</label>
+        <input type="text" name="surname" id="surname" placeholder="e.g: Sharma">
+        <br><br>
+
+        <label for="DOB">Date of Birth:</label>
+        <input type="date" name="DOB" id="dob" required>
+        <br><br>
+
+        <label for="">Gender:</label>
+        <br>
+        <input type="radio" name="Gender" id="male" value="Male">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" name="Gender" id="female" value="female">
+        <label for="female">Female</label>
+        <br>
+        <input type="radio" name="Gender" id="Other" value="Other">
+        <label for="Other">Other</label>
+
+        <br><br>
+        <label for="file">Uplod your Photo:</label>
+        <br>
+        <input type="file">
+        <br><br>
+        <hr>
+
+        <h2>Contact Information</h2>
+        <label for="email">Email Address:</label>
+        <input type="email" name="email" id="email" placeholder="You@example.com" required>
+        <br>
+        <br>
+
+        <label for="Number">Phone Number:</label>
+        <input type="tel" name="number" id="number" placeholder="e.g., 9312115410">
+        <br>
+        <br>
+        <label for="Address">Mailing Address:</label>
+        <br>
+        <textarea name="Address" id="Address" rows="10" cols="30"
+            placeholder="Street Address, City, State, ZIP Code"></textarea>
+
+        <hr>
+
+        <section>
+            <h2>Academic Information</h2>
+
+            <label for="Course">Select Your Course:</label>
+            <br>
+            <select name="Course" id="Course">
+                <option value="">--Choose a course--</option>
+                <option value="10th">10th (Matriculation)</option>
+                <option value="12th">12th (Intermediate)</option>
+                <option value="bachelor">Bachelor’s Degree</option>
+                <option value="master">Master’s Degree</option>
+            </select>
+        </section>
+        <br>
+
+        <label>Extracurricular Interests:</label>
+        <br>
+        <input type="checkbox" name="hobby" id="Sports" value="Sports">
+        <label for="Sports">Sports</label>
+        <br>
+        <input type="checkbox" name="hobby" id="Music & Arts" value="Music & Arts">
+        <label for="Music & Arts">Music& Arts</label>
+        <br>
+        <input type="checkbox" name="hobby" id="Technology Clubs" value="Technology Clubs">
+        <label for="Technology Clubs">Technology Clubs</label>
+        <br>
+        <input type="checkbox" name="hobby" id="Volunteering" value="Volunteering">
+        <label for="Volunteering">Volunteerings</label>
+        <br>
+        <br>
+        <hr>
+
+
+        <h2>Create Your Account</h2>
+        <br>
+        <label for="pass">Create a Password:</label>
+        <input type="text" name="password" id="pass">
+        <br><br>
+
+        <section>
+            <label for="Animal">Security Question:</label>
+            <select name="name" id="Animal">
+                <option value="Answer">What was your first pet's name?</option>
+                <option value="Answer">What was your first pet's name?</option>
+                <option value="Answer">What was your first pet's name?</option>
+                <option value="Answer">What was your first pet's name?</option>
+                <option value="Answer">What was your first pet's name?</option>
+                <option value="Answer">What was your first pet's name?</option>
+            </select>
+        </section>
+
+        <br>
+
+        <label for="Answer">Security Answer:</label>
+        <input type="text" name="Security Answer" id="Answer">
+        <br><br>
+        <input type="checkbox" name="Condition" id="Condition and Condition">
+        <label for="Condition and Condition">I agree to the Terms and Condition.</label>
+        <br>
+        <br>
+        <hr>
+        <button type="submit">register</button>
+        <button type="reset">Clear Form</button>
+    </form>
+</body>
+
+</html>
